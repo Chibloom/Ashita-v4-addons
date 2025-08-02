@@ -244,6 +244,9 @@ skills[3] = { -- Weaponskills
     [235] = {en='Oshala',skillchain={'Induration','Reverberation','Fusion'}},	
     [238] = {en='Uriel Blade',skillchain={'Light','Fragmentation'}},
     [239] = {en='Glory Slash',skillchain={'Light','Fusion'}},
+
+    [3202] = {en='Uriel Blade',skillchain={'Light','Fragmentation'}},
+    [3537] = {en='Quietus Sphere',skillchain={'Darkness','Gravitation'}},
 };
 
 skills[4] = { -- BLU/SCH Spells
