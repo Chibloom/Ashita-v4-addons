@@ -21,7 +21,7 @@
 
 addon.name     = 'chains';
 addon.author   = 'Sippius - Original Ashita-v3 skillchains by Ivaar';
-addon.version  = '0.8';
+addon.version  = '0.8.1';
 addon.desc     = 'Display current skillchain options.';
 
 require('common');
@@ -1135,5 +1135,6 @@ ashita.events.register('command', 'command_cb', function (e)
         };
         print(chat.header(addon.name):append(chat.message('Window position set to x: %s, y: %s'):fmt(chains.position.x, chains.position.y)));
     end
+
 
 end);
