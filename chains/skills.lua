@@ -691,8 +691,8 @@ skills[11] = { -- NPC TP skills
     [3702] = {en='Darkest Hour',skillchain={'Gravitation','Liquefaction'},delay=8},
     [3705] = {en='Naakual\'s Vengeance',skillchain={'Light','Fusion'},delay=7},
     [3707] = {en='Circle Blade',skillchain={'Reverberation','Impaction'}},
-    [3708] = {en='Swift Blade',skillchain={'Gravitation'}},
-    [3709] = {en='Chant du Cygne',skillchain={'Light','Distortion'}},
+    [3708] = {en='Swift Blade',skillchain={'Gravitation'},delay=3}, --AAHM
+    [3709] = {en='Chant du Cygne',skillchain={'Light','Distortion'},delay=5}, --AAHM
     [3711] = {en='Vorpal Blade',skillchain={'Scission','Impaction'},delay=4}, --AAEV
     [3713] = {en='Chant du Cygne',skillchain={'Light','Distortion'},delay=5}, --AAEV
     [3715] = {en='Rampage',skillchain={'Scission'}},
