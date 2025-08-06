@@ -693,8 +693,8 @@ skills[11] = { -- NPC TP skills
     [3707] = {en='Circle Blade',skillchain={'Reverberation','Impaction'}},
     [3708] = {en='Swift Blade',skillchain={'Gravitation'}},
     [3709] = {en='Chant du Cygne',skillchain={'Light','Distortion'}},
-    [3711] = {en='Vorpal Blade',skillchain={'Scission','Impaction'}},
-    [3713] = {en='Chant du Cygne',skillchain={'Light','Distortion'}},
+    [3711] = {en='Vorpal Blade',skillchain={'Scission','Impaction'},delay=4}, --AAEV
+    [3713] = {en='Chant du Cygne',skillchain={'Light','Distortion'},delay=5}, --AAEV
     [3715] = {en='Rampage',skillchain={'Scission'}},
     [3716] = {en='Calamity',skillchain={'Scission','Impaction'}},
     [3718] = {en='Cloudsplitter',skillchain={'Darkness','Fragmentation'}},
