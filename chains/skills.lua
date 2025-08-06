@@ -713,7 +713,7 @@ skills[11] = { -- NPC TP skills
     [3740] = {en='Final Exam',skillchain={'Light','Fusion'}, delay=7},
     [3741] = {en='Doctor\'s Orders',skillchain={'Darkness','Gravitation'}, delay=6},
     [3742] = {en='Empirical Research',skillchain={'Fragmentation','Transfixion'}, delay=5},
-    [3743] = {en='Lesson in Pain',skillchain={'Distortion','Scission'},delay=5},
+    [3743] = {en='Lesson in Pain',skillchain={'Distortion','Scission'},delay=6},
     [3840] = {en='Foot Kick',skillchain={'Reverberation'}},
     [3842] = {en='Whirl Claws',skillchain={'Impaction'}},
     [3843] = {en='Head Butt',skillchain={'Detonation'}},
