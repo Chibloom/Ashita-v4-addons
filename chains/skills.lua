@@ -540,7 +540,7 @@ skills[11] = { -- NPC TP skills
     [3244] = {en='Sixth Element',skillchain={'Darkness','Gravitation'}},
     [3245] = {en='Shield Subverter',skillchain={'Light','Fusion'}},
     [3252] = {en='Bisection',skillchain={'Scission','Detonation'}},
-    [3253] = {en='Leaden Salute',skillchain={'Gravitation','Transfixion'}},
+    [3253] = {en='Leaden Salute',skillchain={'Gravitation','Transfixion'},delay=6}, --luzaf
     [3254] = {en='Akimbo Shot',skillchain={'Compression'},delay=5},
     [3255] = {en='Grisly Horizon',skillchain={'Darkness','Distortion'}},
     [3256] = {en='Hane Fubuki',skillchain={'Transfixion'}},
