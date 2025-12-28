@@ -438,14 +438,14 @@ skills[11] = { -- NPC TP skills
     [1936] = {en='Shibaraku',skillchain={'Darkness','Gravitation'}},
     [1940] = {en='Chimera Ripper',skillchain={'Induration','Detonation'}},
     [1941] = {en='String Clipper',skillchain={'Scission','Impaction'}},
-    [1942] = {en='Arcuballista',skillchain={'Liquefaction','Transfixion'}},
+    [1942] = {en='Arcuballista',skillchain={'Liquefaction','Transfixion'},delay=5}, --should be fine now: pup
     [1943] = {en='Slapstick',skillchain={'Reverberation','Impaction'}},
     [1982] = {en='Nullifying Dropkick',skillchain={'Induration','Detonation','Impaction'}},
     [1983] = {en='Auroral Uppercut',skillchain={'Light','Fragmentation'}},
     [1998] = {en='Hane Fubuki',skillchain={'Transfixion'}},
     [2001] = {en='Happobarai',skillchain={'Reverberation','Impaction'}},
     [2065] = {en='Cannibal Blade',skillchain={'Compression','Reverberation'}},
-    [2066] = {en='Daze',skillchain={'Transfixion'}},
+    [2066] = {en='Daze',skillchain={'Transfixion'},delay=5}, --testing
     [2067] = {en='Knockout',skillchain={'Scission','Detonation'}},
     [2088] = {en='Victory Beacon',skillchain={'Light','Distortion'}},
     [2089] = {en='Salamander Flame',skillchain={'Light','Fusion'}},
@@ -464,7 +464,7 @@ skills[11] = { -- NPC TP skills
     [2278] = {en='Glory Slash',skillchain={'Light','Fusion'}},
     [2280] = {en='Iainuki',skillchain={'Light','Fragmentation'},delay=7},
     [2299] = {en='Bone Crusher',skillchain={'Fragmentation'}},
-    [2300] = {en='Armor Piercer',skillchain={'Gravitation'}},
+    [2300] = {en='Armor Piercer',skillchain={'Gravitation'},delay=5}, --testing
     [2301] = {en='Magic Mortar',skillchain={'Fusion'}},
     [2386] = {en='Cobra Clamp',skillchain={'Fragmentation','Distortion'}},
     [2444] = {en='Dancer\'s Fury',skillchain={'Fragmentation','Scission'}},
@@ -484,7 +484,7 @@ skills[11] = { -- NPC TP skills
     [2590] = {en='Lunar Revolution',skillchain={'Gravitation','Reverberation'}},
     [2594] = {en='Quietus Sphere',skillchain={'Darkness','Gravitation'}},
     [2743] = {en='String Shredder',skillchain={'Distortion','Scission'}},
-    [2744] = {en='Armor Shatterer',skillchain={'Fusion','Impaction'}},
+    [2744] = {en='Armor Shatterer',skillchain={'Fusion','Impaction'},delay=4}, --accurate?
     [2891] = {en='Grapeshot',skillchain={'Reverberation','Transfixion'}},
     [2892] = {en='Pirate Pummel',skillchain={'Fusion','Impaction'}},
     [2893] = {en='Powder Keg',skillchain={'Fusion','Compression'}},
@@ -540,7 +540,7 @@ skills[11] = { -- NPC TP skills
     [3244] = {en='Sixth Element',skillchain={'Darkness','Gravitation'}},
     [3245] = {en='Shield Subverter',skillchain={'Light','Fusion'}},
     [3252] = {en='Bisection',skillchain={'Scission','Detonation'}},
-    [3253] = {en='Leaden Salute',skillchain={'Gravitation','Transfixion'},delay=6}, --luzaf
+    [3253] = {en='Leaden Salute',skillchain={'Gravitation','Transfixion'}, delay=6}, --luzaf
     [3254] = {en='Akimbo Shot',skillchain={'Compression'},delay=5},
     [3255] = {en='Grisly Horizon',skillchain={'Darkness','Distortion'}},
     [3256] = {en='Hane Fubuki',skillchain={'Transfixion'}},
@@ -669,10 +669,10 @@ skills[11] = { -- NPC TP skills
     [3640] = {en='Super Crusher Jig',skillchain={'Gravitation','Reverberation'},delay=7},
     [3645] = {en='Inexorable Strike',skillchain={'Light','Fusion'}},
     [3647] = {en='Merciless Strike',skillchain={'Detonation','Impaction'}},
-    [3653] = {en='Tartaric Sigil',skillchain={'Compression','Scission'}},
-    [3654] = {en='Null Field',skillchain={'Fusion','Transfixion'}},
-    [3655] = {en='Alabaster Burst',skillchain={'Distortion','Detonation'}},
-    [3656] = {en='Noble Frenzy',skillchain={'Gravitation','Scission'}},
+    [3653] = {en='Tartaric Sigil',skillchain={'Compression','Scission'},delay=4},       --trust: august
+    [3654] = {en='Null Field',skillchain={'Fusion','Transfixion'},delay=6},             --trust: august, dude wtf man
+    [3655] = {en='Alabaster Burst',skillchain={'Distortion','Detonation'},delay=4},     --trust: august
+    [3656] = {en='Noble Frenzy',skillchain={'Gravitation','Scission'}}, --cant make him daybreak on the cardian sry bud
     [3657] = {en='Fulminous Fury',skillchain={'Fragmentation','Scission'},delay=6},
     [3658] = {en='No Quarter',skillchain={'Light','Distortion'},delay=7},
     [3677] = {en='Camaraderie of the Crevasse',skillchain={'Detonation','Impaction'}},
@@ -691,10 +691,10 @@ skills[11] = { -- NPC TP skills
     [3702] = {en='Darkest Hour',skillchain={'Gravitation','Liquefaction'},delay=8},
     [3705] = {en='Naakual\'s Vengeance',skillchain={'Light','Fusion'},delay=7},
     [3707] = {en='Circle Blade',skillchain={'Reverberation','Impaction'}},
-    [3708] = {en='Swift Blade',skillchain={'Gravitation'},delay=3}, --AAHM
-    [3709] = {en='Chant du Cygne',skillchain={'Light','Distortion'},delay=5}, --AAHM
-    [3711] = {en='Vorpal Blade',skillchain={'Scission','Impaction'},delay=4}, --AAEV
-    [3713] = {en='Chant du Cygne',skillchain={'Light','Distortion'},delay=5}, --AAEV
+    [3708] = {en='Swift Blade',skillchain={'Gravitation'},delay=3},                 --trust: AAHM
+    [3709] = {en='Chant du Cygne',skillchain={'Light','Distortion'},delay=5},       --trust: AAHM
+    [3711] = {en='Vorpal Blade',skillchain={'Scission','Impaction'},delay=4},       --trust: AAEV
+    [3713] = {en='Chant du Cygne',skillchain={'Light','Distortion'},delay=5},       --trust: AAEV
     [3715] = {en='Rampage',skillchain={'Scission'}},
     [3716] = {en='Calamity',skillchain={'Scission','Impaction'}},
     [3718] = {en='Cloudsplitter',skillchain={'Darkness','Fragmentation'}},
